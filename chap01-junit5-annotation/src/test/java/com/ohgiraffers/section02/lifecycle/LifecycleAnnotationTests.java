@@ -1,6 +1,7 @@
 package com.ohgiraffers.section02.lifecycle;
 
 import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.condition.EnabledOnJre;
 
 public class LifecycleAnnotationTests {
 
@@ -43,4 +44,6 @@ public class LifecycleAnnotationTests {
     public static void afterAll(){
         System.out.println("afterAll");
     }
+
+
 }
